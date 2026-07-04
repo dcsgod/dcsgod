@@ -1,135 +1,138 @@
 # 💫 About Me
+
 Hi 👋, I’m **Ravi Kumar**
 
-🚀 **Data Scientist at Celebal Technologies**  
-🎓 B.Tech in Computer Science Engineering  
-🧠 Specializing in **Data Science, Data Engineering & Generative AI**  
-🌌 Former Intern at **ISRO & Ministry of Education (GenAI & Data Analytics)**  
+🚀 **AI/ML Engineer at Celebal Technologies**  building enterprise LLM systems for clients.
 
-💡 Passionate about building scalable AI systems, LLM-powered applications, and production-ready ML pipelines.  
-✍️ I also write and publish research-backed insights on **Medium** and **Google Scholar**.
+🎓 B.Tech in Computer Science Engineering and M. Tech AI & DSE IIT Patna
+
+🛰️ Former Intern at **ISRO (URSC & NRSC)** — GenAI fine-tuning and satellite imagery analysis
+
+🧠 Focused on **LLM internals, reasoning systems, quantitative AI & CUDA/systems optimization**
+
+📄 Published researcher (JAIMLNN) with an active Zenodo deposit
+
+💡 ~1.5 years turning production LLM systems into real enterprise value — and using every open-source hour outside of that to go deeper into how these models actually work under the hood, not just how to call their APIs.
 
 🤝 Open to collaborating on:
-- Generative AI & LLM Systems  
-- LLM Fine-Tuning & Evaluation  
-- Data Engineering & Distributed Systems  
-- Cloud-native ML Platforms  
 
----
+- LLM internals, inference optimization & speculative decoding
+- Agentic AI systems & multi-agent architectures
+- Graph-based reasoning & retrieval systems
+- Applied research at the intersection of NLP and systems engineering
+
+-----
 
 ## 🌐 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ravi-kumar-4952b8222/)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFB000?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/iravikr)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@rk9128557489)
-[![Google%20Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=s4o3mJMAAAAJ&hl=en)
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/rviiikr)
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/its_me_ravi01)
 
----
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://dcsgod.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ravi3kr)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFB000?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/iravikr)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@rk9128557489)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=s4o3mJMAAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-3876-5387)
+[![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/its_me_ravi01)
+
+-----
 
 # 🚀 Project Highlights
 
-## 🤖 Generative AI & LLM Engineering
-- Built **LLM-powered applications** using Azure OpenAI & HuggingFace models  
-- Worked on **LLM Fine-Tuning, Prompt Engineering & Evaluation pipelines**  
-- Designed **RAG-based systems** with vector databases  
-- Developed **agentic AI workflows** for automation & reasoning  
+## ⚡ LLM Internals & Systems
 
-## ☁️ Azure AI & Cloud Systems
-- Deployed production AI systems using **Azure AI Services & Azure ML**  
-- Implemented scalable inference & training pipelines  
-- Built cloud-native microservices using **FastAPI & Docker**  
+- **spec-decode** — speculative decoding pipeline built from scratch, pairing Qwen2.5-0.5B (draft) with Qwen2.5-7B-Instruct (target), to work through the internals of accelerated autoregressive inference
+- **dgot** *(PyPI-published)* — a Differentiable Graph-of-Thought package for structured, gradient-friendly reasoning over thought graphs
+- **GrepSearch** — two-stage hybrid retrieval library combining BM25 with a cross-encoder reranker
 
-## 📊 Databricks & Data Engineering
-- Designed distributed ETL pipelines using **Apache Spark & Databricks**  
-- Implemented real-time data processing with **Kafka & Spark Streaming**  
-- Managed ML lifecycle using **MLflow**  
-- Optimized large-scale data workflows for analytics & model training  
+## 🕸️ Agentic & Graph-Based AI
 
----
+- **Promograph** — graph-steered trade promotion optimization system; recently underwent a full technical review and rewrite, with an accompanying long-form editorial write-up
+- **GraphLens** — an MCP server that auto-generates semantic tool interfaces directly from knowledge graph ontologies
+- **AI Research Insight** — a Bloomberg Terminal-style research platform combining MCP servers, BERTopic, Prophet, XGBoost, Qdrant, and Kafka
+- **Neuron** — a local, AI-native IDE (Tauri shell) with five specialized agents, a reward-based context planner, MLflow integration, and a built-in model benchmarking arena
+
+## ☁️ Enterprise ML & Data Engineering
+
+- **Databricks AutoML Accelerator** — full-stack agentic AutoML platform (FastAPI + React) with Optuna-driven search, SSE streaming, and Unity Catalog integration
+- Production systems shipped at Celebal: a multimodal GenAI orchestrator (Microsoft), an NL-to-SQL financial analytics + agentic BI platform using LangGraph (Meijer), an SAP ECC → S/4HANA migration on Databricks (Nielsen), and a Databricks Genie/Copilot chatbot (Daikin)
+
+## 🛰️ Research & ISRO Work
+
+- **Gyan AI (ISRO URSC)** — Falcon-7B fine-tuning with QLoRA
+- **Road network extraction (ISRO NRSC)** — satellite imagery analysis for infrastructure mapping
+- **Qwen3-finance-india** — a domain fine-tune published on HuggingFace
+- Published paper (JAIMLNN) and an active Zenodo research deposit
+
+-----
 
 # 🔥 What I’m Currently Working On
 
-🧠 **LLM Fine-Tuning & Alignment Techniques**  
-📚 Open-source experimentation & model evaluation  
-⚙️ Building **RAG and Agentic AI Systems**  
-☁️ Enterprise-scale **Azure + Databricks ML pipelines**
+🧠 Building **spec-decode** end-to-end — draft/target model alignment, acceptance-rate tuning, and CUDA-level optimization
+🕸️ Iterating on **Promograph**’s graph reasoning layer and its public-facing technical write-up
+📚 Expanding my **personal learning hub** — a 12-month interactive study plan spanning 10 AI/ML learning paths, with new roadmaps for Reinforcement Learning, Diffusion Models, and Competitive Programming
+🎯 Long-term goal: growing into a **Senior AI/ML Engineer or Applied Scientist** role with real depth in LLM reasoning and systems-level optimization — not just orchestration and API integration
 
-👉 Explore my ongoing LLM experiments & fine-tuning work:  
-🔗 https://huggingface.co/iravikr
+👉 **Learning hub:** <https://dcsgod.github.io/mylearning>
+👉 **Latest experiments:** <https://huggingface.co/iravikr>
 
----
+-----
 
 ## ✍️ Writing & Research
 
-📝 Writing about **Data Science, Generative AI, LLMs & MLOps**  
-🎓 Actively involved in applied research & experimentation  
+- 📖 **Medium:** <https://medium.com/@rk9128557489>
+- 🎓 **Google Scholar:** <https://scholar.google.com/citations?user=s4o3mJMAAAAJ&hl=en>
+- 🔗 **ORCID:** <https://orcid.org/0009-0009-3876-5387>
 
-- 📖 **Medium:**  
-  https://medium.com/@rk9128557489  
-
-- 🎓 **Google Scholar:**  
-  https://scholar.google.com/citations?user=s4o3mJMAAAAJ&hl=en  
-
----
+-----
 
 # 💻 Tech Stack
 
-## 🧠 Data Science • GenAI • Data Engineering
+## 🧠 AI / ML / LLM Systems
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![MLflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-FFB000?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+## ☁️ Data Engineering & Cloud
+
 ![Databricks](https://img.shields.io/badge/Databricks-EF3E3E?style=for-the-badge&logo=databricks&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
-![Generative AI](https://img.shields.io/badge/Generative_AI-000000?style=for-the-badge&logo=openai&logoColor=white)
-
----
-
-## ☁️ Cloud & MLOps
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![MLflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue)
+
+## 🛠️ Full-Stack & Infra
+
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 
----
+## 👨‍💻 Languages
 
-## 👨‍💻 Programming Languages
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=for-the-badge&logo=scala&logoColor=white)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 
----
+-----
 
 # 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=dcsgod&theme=dark)
+
+![](https://github-readme-stats.vercel.app/api?username=dcsgod&theme=dark&show_icons=true)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=dcsgod&theme=dark)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=dcsgod&theme=dark&layout=compact)
 
----
+-----
 
 # 🏆 GitHub Achievements
+
 ![](https://github-profile-trophy.vercel.app/?username=dcsgod&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
----
+-----
 
-### ✍️ Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
-### 😂 Dev Meme
-<img src="https://memer-new.vercel.app/" style="height: 360px;" />
-
----
 [![](https://visitcount.itsvg.in/api?id=dcsgod&icon=0&color=0)](https://visitcount.itsvg.in)
