@@ -12,7 +12,7 @@
 </p>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=dcsgod&label=Profile%20Views&color=4267E8&style=flat-square" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=dcsgod&label=PROFILE+VIEWS&color=4267E8&style=flat-square" alt="Profile Views">
   <img src="https://img.shields.io/github/followers/dcsgod?label=Followers&style=flat-square&color=4267E8" alt="Followers">
   <img src="https://img.shields.io/github/stars/dcsgod?label=Stars&style=flat-square&color=F59E0B" alt="Stars">
 </p>
