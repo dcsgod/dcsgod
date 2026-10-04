@@ -222,6 +222,26 @@ Exploring optimal transport and its applications to modern machine learning and 
 
 ---
 
+# ⭐ Awesome Open Source
+
+A curated list of my open-source work across AI systems, data engineering, ML research, and decision intelligence.
+
+- **The Third Eye**: AI model health and governance for Databricks
+- **Membrane**: Programmable memory runtime for AI agents
+- **Migrate.io**: AI-powered data migration, ETL, PySpark, and schema matching
+- **Neuron**: AI-native IDE for data scientists and ML engineers
+- **TriChronos**: Quantized Transformer for probabilistic time-series forecasting
+- **Promograph**: Graph-steered trade promotion optimization
+- **Nexa**: Semantic intelligence and knowledge graph layer for Databricks
+- **dbx-guardrails**: Databricks-native AI safety and policy engine
+- **Optimal Transport**: Mathematical ML experiments
+
+### Research Themes
+
+`AI Agents` · `Memory Systems` · `Time-Series` · `Graph ML` · `Causal AI` · `Decision Intelligence` · `Databricks` · `Data Engineering` · `Knowledge Graphs`
+
+---
+
 # ⚙️ Technology
 
 <div align="center">
